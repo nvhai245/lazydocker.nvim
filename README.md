@@ -22,7 +22,7 @@ Simple and straightforward plugin that allows the user to open [lazydocker](http
 ```lua
 -- Packer
 use({
-  "crnvl96/lazydocker.nvim",
+  "nvhai245/lazydocker.nvim",
   config = function()
     require("lazydocker").setup()
   end,
@@ -33,7 +33,7 @@ use({
 
 -- Lazy
 {
-  "crnvl96/lazydocker.nvim",
+  "nvhai245/lazydocker.nvim",
   event = "VeryLazy",
   opts = {},  -- automatically calls `require("lazydocker").setup()`
   dependencies = {
